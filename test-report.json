@@ -1,0 +1,93 @@
+{"Time":"2023-06-09T11:52:32.344488+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Output":"-test.shuffle 1686286352344164000\n"}
+{"Time":"2023-06-09T11:52:32.34501+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain"}
+{"Time":"2023-06-09T11:52:32.34502+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain","Output":"=== RUN   TestLokr_TryObtain\n"}
+{"Time":"2023-06-09T11:52:32.345028+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345031+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty","Output":"=== RUN   TestLokr_TryObtain/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345038+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty","Output":"=== PAUSE TestLokr_TryObtain/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345042+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345045+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked"}
+{"Time":"2023-06-09T11:52:32.345049+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked","Output":"=== RUN   TestLokr_TryObtain/locked\n"}
+{"Time":"2023-06-09T11:52:32.345052+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked","Output":"=== PAUSE TestLokr_TryObtain/locked\n"}
+{"Time":"2023-06-09T11:52:32.345055+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked"}
+{"Time":"2023-06-09T11:52:32.345058+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345061+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty","Output":"=== CONT  TestLokr_TryObtain/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345064+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked"}
+{"Time":"2023-06-09T11:52:32.345067+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked","Output":"=== CONT  TestLokr_TryObtain/locked\n"}
+{"Time":"2023-06-09T11:52:32.34507+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain"}
+{"Time":"2023-06-09T11:52:32.345072+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain","Output":"=== CONT  TestLokr_TryObtain\n"}
+{"Time":"2023-06-09T11:52:32.345076+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain","Output":"    Repository.go:267: PASS:\tTx(string,string)\n"}
+{"Time":"2023-06-09T11:52:32.345081+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain","Output":"--- PASS: TestLokr_TryObtain (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345084+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty","Output":"    --- PASS: TestLokr_TryObtain/key_is_empty (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.3451+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/key_is_empty","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345104+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked","Output":"    --- PASS: TestLokr_TryObtain/locked (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345107+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain/locked","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.34511+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_TryObtain","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345113+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock"}
+{"Time":"2023-06-09T11:52:32.345115+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock","Output":"=== RUN   TestLokr_RegisterLock\n"}
+{"Time":"2023-06-09T11:52:32.345119+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled"}
+{"Time":"2023-06-09T11:52:32.345121+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled","Output":"=== RUN   TestLokr_RegisterLock/key_is_filled\n"}
+{"Time":"2023-06-09T11:52:32.345124+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled","Output":"=== PAUSE TestLokr_RegisterLock/key_is_filled\n"}
+{"Time":"2023-06-09T11:52:32.345127+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled"}
+{"Time":"2023-06-09T11:52:32.34513+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345132+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty","Output":"=== RUN   TestLokr_RegisterLock/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345135+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty","Output":"=== PAUSE TestLokr_RegisterLock/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345138+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345141+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled"}
+{"Time":"2023-06-09T11:52:32.345144+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled","Output":"=== CONT  TestLokr_RegisterLock/key_is_filled\n"}
+{"Time":"2023-06-09T11:52:32.345146+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345149+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty","Output":"=== CONT  TestLokr_RegisterLock/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345155+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock"}
+{"Time":"2023-06-09T11:52:32.345158+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock","Output":"=== CONT  TestLokr_RegisterLock\n"}
+{"Time":"2023-06-09T11:52:32.345167+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock","Output":"    Repository.go:267: PASS:\tStoreLock(string,*v1.Lock)\n"}
+{"Time":"2023-06-09T11:52:32.34517+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock","Output":"--- PASS: TestLokr_RegisterLock (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345176+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty","Output":"    --- PASS: TestLokr_RegisterLock/key_is_empty (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345179+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_empty","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345184+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled","Output":"    --- PASS: TestLokr_RegisterLock/key_is_filled (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.34519+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock/key_is_filled","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345193+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_RegisterLock","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345196+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release"}
+{"Time":"2023-06-09T11:52:32.345198+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release","Output":"=== RUN   TestLokr_Release\n"}
+{"Time":"2023-06-09T11:52:32.345202+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345205+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty","Output":"=== RUN   TestLokr_Release/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345208+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty","Output":"=== PAUSE TestLokr_Release/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345212+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345215+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked"}
+{"Time":"2023-06-09T11:52:32.345217+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked","Output":"=== RUN   TestLokr_Release/locked\n"}
+{"Time":"2023-06-09T11:52:32.34522+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked","Output":"=== PAUSE TestLokr_Release/locked\n"}
+{"Time":"2023-06-09T11:52:32.345223+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked"}
+{"Time":"2023-06-09T11:52:32.345226+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty"}
+{"Time":"2023-06-09T11:52:32.345228+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty","Output":"=== CONT  TestLokr_Release/key_is_empty\n"}
+{"Time":"2023-06-09T11:52:32.345233+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked"}
+{"Time":"2023-06-09T11:52:32.345242+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked","Output":"=== CONT  TestLokr_Release/locked\n"}
+{"Time":"2023-06-09T11:52:32.345431+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release"}
+{"Time":"2023-06-09T11:52:32.345448+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release","Output":"=== CONT  TestLokr_Release\n"}
+{"Time":"2023-06-09T11:52:32.345455+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release","Output":"    Repository.go:267: PASS:\tPatchLockByKey(string,string)\n"}
+{"Time":"2023-06-09T11:52:32.345473+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release","Output":"--- PASS: TestLokr_Release (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345478+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty","Output":"    --- PASS: TestLokr_Release/key_is_empty (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345482+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/key_is_empty","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345486+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked","Output":"    --- PASS: TestLokr_Release/locked (0.00s)\n"}
+{"Time":"2023-06-09T11:52:32.345491+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release/locked","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345494+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_Release","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.345498+07:00","Action":"run","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain"}
+{"Time":"2023-06-09T11:52:32.345501+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"=== RUN   TestLokr_PollObtain\n"}
+{"Time":"2023-06-09T11:52:32.345505+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"=== PAUSE TestLokr_PollObtain\n"}
+{"Time":"2023-06-09T11:52:32.345508+07:00","Action":"pause","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain"}
+{"Time":"2023-06-09T11:52:32.345512+07:00","Action":"cont","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain"}
+{"Time":"2023-06-09T11:52:32.345516+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"=== CONT  TestLokr_PollObtain\n"}
+{"Time":"2023-06-09T11:52:32.599599+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"2023/06/09 11:52:32 2023-06-09 11:52:32.597197 +0700 WIB m=+0.254812543 polling lock demo-lock-key\n"}
+{"Time":"2023-06-09T11:52:32.846039+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"2023/06/09 11:52:32 2023-06-09 11:52:32.845729 +0700 WIB m=+0.503342460 polling lock demo-lock-key\n"}
+{"Time":"2023-06-09T11:52:32.846097+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"2023/06/09 11:52:32 context done {}\n"}
+{"Time":"2023-06-09T11:52:32.846137+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"2023/06/09 11:52:32 has not obtained anything, returning\n"}
+{"Time":"2023-06-09T11:52:32.846152+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"    Repository.go:267: PASS:\tTx(string,string)\n"}
+{"Time":"2023-06-09T11:52:32.846167+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Output":"--- PASS: TestLokr_PollObtain (0.50s)\n"}
+{"Time":"2023-06-09T11:52:32.846178+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Test":"TestLokr_PollObtain","Elapsed":0.5}
+{"Time":"2023-06-09T11:52:32.846605+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Output":"PASS\n"}
+{"Time":"2023-06-09T11:52:32.847407+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Output":"coverage: 30.9% of statements\n"}
+{"Time":"2023-06-09T11:52:32.849003+07:00","Action":"output","Package":"github.com/clavinjune/lokr","Output":"ok  \tgithub.com/clavinjune/lokr\t1.386s\tcoverage: 30.9% of statements\n"}
+{"Time":"2023-06-09T11:52:32.849048+07:00","Action":"pass","Package":"github.com/clavinjune/lokr","Elapsed":1.387}
+{"Time":"2023-06-09T11:52:32.852824+07:00","Action":"output","Package":"github.com/clavinjune/lokr/api/lokr/v1","Output":"?   \tgithub.com/clavinjune/lokr/api/lokr/v1\t[no test files]\n"}
+{"Time":"2023-06-09T11:52:32.852894+07:00","Action":"skip","Package":"github.com/clavinjune/lokr/api/lokr/v1","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.852924+07:00","Action":"output","Package":"github.com/clavinjune/lokr/mocks","Output":"?   \tgithub.com/clavinjune/lokr/mocks\t[no test files]\n"}
+{"Time":"2023-06-09T11:52:32.852948+07:00","Action":"skip","Package":"github.com/clavinjune/lokr/mocks","Elapsed":0}
+{"Time":"2023-06-09T11:52:32.85297+07:00","Action":"output","Package":"github.com/clavinjune/lokr/pkg","Output":"?   \tgithub.com/clavinjune/lokr/pkg\t[no test files]\n"}
+{"Time":"2023-06-09T11:52:32.852992+07:00","Action":"skip","Package":"github.com/clavinjune/lokr/pkg","Elapsed":0}
